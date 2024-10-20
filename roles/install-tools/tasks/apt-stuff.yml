@@ -13,10 +13,10 @@
   package:
     name:
       - jq
-      - pipx
-      - ntpdate
-      - flameshot
-      - exiftool
+      # - pipx
+      # - ntpdate
+      # - flameshot
+      # - exiftool
     state: latest
   become: true
   become_method: sudo
