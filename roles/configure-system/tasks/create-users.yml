@@ -1,0 +1,6 @@
+---
+- name: Create "jordan" user
+  user:
+    name: jordan
+    create_home: yes
+    group: sudo

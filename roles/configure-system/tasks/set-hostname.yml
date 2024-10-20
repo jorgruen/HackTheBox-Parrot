@@ -1,0 +1,5 @@
+---
+- name: Change system name to "HackTheBox"
+  become: true
+  become_method: sudo
+  shell: hostnamectl set-hostname HackTheBox

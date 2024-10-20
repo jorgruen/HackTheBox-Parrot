@@ -1,0 +1,5 @@
+---
+- name: Set timezone to MST
+  become: true
+  become_method: sudo
+  shell: timedatectl set-timezone America/Denver
